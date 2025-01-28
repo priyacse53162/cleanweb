@@ -56,8 +56,8 @@ const Whychooseus = () => {
           alt="cleaning imgae"
         />
         <div className="MaidContainer">
-          <p className="wcuparagraph">MAID FOR YOU</p>
-          <h1 className="wcuheading maidheading">
+          <p className="MaidContainerparagraph">MAID FOR YOU</p>
+          <h1 className="MaidContainerheading">
             A Cleaner Place is a Safer Place
           </h1>
           <p className="wcuparagraph wcutext maidparagraph">

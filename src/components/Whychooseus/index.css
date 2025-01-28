@@ -8,27 +8,56 @@
   .wcuparagraph {
     font-family: 'roboto';
     font-size: 15px;
-    color: #595958;
+    color: #a2a3a3;
     padding: 0px;
     margin: 0px;
     margin-top: 10px;
     font-weight: bold;
   }
-  .wcuheading {
+  .MaidContainerparagraph{
     font-family: 'roboto';
-    font-size: 40px;
+    font-size: 15px;
+    color: #a2a3a3;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .MaidContainerheading{
+    font-family: 'roboto';
+    font-size: 25px;
     color: #000000;
     font-weight: bold;
     padding: 0px;
     margin: 0px;
     margin-top: 10px;
   }
-  .wcutext {
+  .MaidContainertext{
+    font-size: 10px;
     line-height: 1.6;
-    font-weight: normal;
     margin-top: 10px;
     width: 40%;
     text-align: center;
+    color: #a2a3a3;
+    font-weight: unset;
+    width:80%;
+  }
+  .wcuheading {
+    font-family: 'roboto';
+    font-size: 40px;
+    color: #000000;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+  }
+  .wcutext {
+    line-height: 1.6;
+    margin-top: 10px;
+    width: 40%;
+    text-align: center;
+    color: #a2a3a3;
   }
   .iconbutton {
     border: none;
@@ -64,6 +93,7 @@
     background-color: #ffffff;
     padding: 0px;
     padding-left: 20px;
+    padding-top:20px;
     text-align: left;
     position: relative;
     top: 50px;
@@ -72,7 +102,8 @@
   }
   .MaidcartContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin-top: 20px;
   }
   .ServiceContainer {
     width: 100%;
@@ -151,4 +182,9 @@
     margin: 0px;
     margin-top: 10px;
     line-height: 1.6;
+  }
+  .Maidcart{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
   }

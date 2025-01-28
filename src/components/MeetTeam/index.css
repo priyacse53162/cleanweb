@@ -1,0 +1,294 @@
+.cleaningcontainer{
+    background-image: url("https://res.cloudinary.com/da4hbebqt/image/upload/v1737975732/webnox%20tech/nb8kunrymxqej7azpkab.jpg");
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-size: cover;
+    height:500px;
+}
+.cleaningcart{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.cleaningcartparagraph{
+    font-family: "roboto";
+    font-size: 20px;
+    color:#ffffff;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.cleaningcartheading{
+    font-family: "roboto";
+    font-size: 45px;
+    color:#ffffff;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.playbutton{
+    font-family: "roboto";
+    font-size: 40px;
+    color:#ffffff;
+    background-color: #57b7f7;
+    height: 80px;
+    width:80px;
+    border-radius: 50px;
+    border:none;
+    padding-top: 10px;
+}
+.cleaningcartbutton{
+    margin-top: 10px;
+    background-color: #57b7f7;
+    font-family: "roboto";
+    font-size: 20px;
+    color:#ebeef2;
+    border-radius: 5px;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    outline: none;
+    border:none;
+}
+.happycustomer{
+    display: flex;
+    justify-content: center;
+    width:80vw;
+    padding: 10px;
+    padding-top:40px;
+    padding-bottom:40px;
+    box-shadow: 0px 4px 16px 0px #e1e3e3;
+    position:relative;
+    bottom:40px;
+    background-color: #ffffff;
+}
+
+.happycustomercart{
+    display: flex;
+    font-family: "roboto";
+    font-size: 40px;
+    color:#57b7f7;
+    align-items: center;
+    border-right:1px solid #bbbdbd;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bordernone{
+    border: none;
+}
+.happycustomerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 30px;
+}
+.happyContentheading{
+    font-family: "roboto";
+    font-size: 25px;
+    color:#000000;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.happyContentParagraph{
+    font-family: "roboto";
+    font-size: 18px;
+    color:#a2a3a3;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+.recordsimagecontainer{
+    width:90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recordscart{
+    width:30%;
+    margin:10px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.cart1{
+    background-image: url("https://res.cloudinary.com/da4hbebqt/image/upload/v1738039200/webnox%20tech/fstjgmvo4zirn25ptfvu.jpg");
+    background-size: cover;
+}
+.cart2{
+    background-image: url("https://res.cloudinary.com/da4hbebqt/image/upload/v1738039104/webnox%20tech/evrpwgpqtygnejwtrlzq.jpg");
+    background-size: cover;
+}
+.cart3{
+    background-image: url("https://res.cloudinary.com/da4hbebqt/image/upload/v1738039067/webnox%20tech/wqr4kcofqjmzlluaaizg.jpg");
+    background-size: cover;
+}
+.date{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #57b7f7;
+    color: #ffffff;
+    font-family: "roboto";
+    padding: 5px;
+}
+.dateheading{
+    font-size: 20px;
+    font-weight: bolder;
+    margin:0px;
+    padding:0px;
+    padding-top:5px;
+}
+.dateparagraph{
+    font-size: 15px;
+    font-weight: normal;
+    margin:0px;
+    padding:0px;
+    padding-top:5px;
+}
+.recordscontentcontainer{
+    width:90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recordscontentcart{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding:10px;
+    width:25%;
+    margin: 10px;
+    border-bottom: 2px solid #b1fafa;
+    box-shadow: 0px 4px 16px 0px #e1e3e3;
+    position:relative;
+    bottom:50px;
+    background-color: #ffffff;
+}
+.recordscontentparagraph{
+    font-family: "roboto";
+    font-size: 15px;
+    color:#a2a3a3;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+.recordscontentheading{
+    font-family: "roboto";
+    font-size: 20px;
+    color:#000000;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.profilepic1{
+    background-image:url("https://res.cloudinary.com/da4hbebqt/image/upload/v1738039290/webnox%20tech/pdmoppp1x4wtlpwmqond.jpg");
+}
+.profilepic2{
+    background-image:url("https://res.cloudinary.com/da4hbebqt/image/upload/v1738039358/webnox%20tech/j1qqjtmj0kxgx1z8ri6x.jpg");
+}
+.profilepic3{
+    background-image:url("https://res.cloudinary.com/da4hbebqt/image/upload/v1738039367/webnox%20tech/b3fqlhatpqbfw2f8f7my.jpg");
+}
+.profilepic{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:none;
+    background-size: cover;
+}
+
+.clientprofilecontainer{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.profiledetails{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.name{
+    font-family: "roboto";
+    font-size: 15px;
+    color:#000000;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    font-weight: normal;
+}
+.position{
+    font-family: "roboto";
+    font-size: 15px;
+    color:#a2a3a3;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    font-weight: normal;
+}
+.Whychooseuscart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width:100vw;
+  }
+  .wcuparagraph {
+    font-family: 'roboto';
+    font-size: 18px;
+    color: #b6baba;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    width:60vw;
+  }
+  .wcuheading {
+    font-family: 'roboto';
+    font-size: 40px;
+    color: #000000;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    width:100vw;
+  }
+  .wcutext {
+    line-height: 1.6;
+    font-weight: normal;
+    margin-top: 10px;
+    width: 40vw;
+    text-align: center;
+  }
+  .iconborder{
+    border:2px solid #6fd2fc;
+    margin: 0px;
+    padding: 0px;
+    padding:5px;
+    border-radius: 50px;
+    border-bottom: none;
+  }
+  .iconborder2{
+    border:2px solid #6fd2fc;
+    border-radius: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0px;
+    padding: 5px;
+  }
