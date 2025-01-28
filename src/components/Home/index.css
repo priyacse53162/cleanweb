@@ -1,0 +1,152 @@
+.bgcontainer {
+    padding: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #10b5c7;
+    align-items: center;
+  }
+  .topcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-image: url('https://res.cloudinary.com/da4hbebqt/image/upload/v1737472990/ai-generated-beautifulgraphy-for-cleaning-service-advertising-free-photo_dng4jb.jpg');
+    background-size: cover;
+    padding: 10px;
+  }
+  .heading {
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 20px;
+  }
+  .navcontainer {
+    height: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .contactnav {
+    width: 30%;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+    font-family: 'roboto';
+    font-size: 17px;
+    align-items: center;
+  }
+  
+  .navicon {
+    font-size: 20px;
+  }
+  .iconcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navtext {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    font-family: 'roboto';
+    font-size: 15px;
+  }
+  .socialnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin-right: 10px;
+  }
+  .socialiconscontainer {
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .quotebutton {
+    background-color: #1c8eb8;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+  }
+  .quotetext {
+    margin: 0px;
+    font-size: 13px;
+    padding: 0px;
+  }
+  .corouselcontainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  .logonav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    opacity: 70%;
+  }
+  .logoimage {
+    width: 150px;
+  }
+  .navlinkcontainer {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+  .navlink {
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #191a19;
+    text-decoration: none;
+  }
+  .aboutcontainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .whychoosuscontainer {
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .horizantalline {
+    border: solid 1px #cfd1d1;
+    width: 100vw;
+  }
+  .copyrights {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  .contactsocialmedias {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #9e9d9d;
+  }

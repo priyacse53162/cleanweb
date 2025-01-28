@@ -1,0 +1,72 @@
+.contactContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+  }
+  .contactcart {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 25%;
+  }
+  .contactlogo {
+    width: 100px;
+  }
+  .textcenter {
+    margin-left: 40px;
+  }
+  .contecttext {
+    line-height: 1.8;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: left;
+    color: #9e9d9d;
+    font-size: 14px;
+    font-family: 'roboto';
+    padding: 0px;
+    margin: 0px;
+    width: 90%;
+  }
+  .contactcartheading {
+    font-family: 'roboto';
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+  }
+  .margintop {
+    margin-top: 10px;
+  }
+  .inputContainer {
+    display: flex;
+    margin-top: 10px;
+  }
+  .signupinput {
+    border: none;
+    background-color: #c9c9c9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+  }
+  .signupbutton {
+    background-color: #2cc9de;
+    color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: 'roboto';
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .quicklink {
+    display: flex;
+  }
+  .quicklinkcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
