@@ -6,6 +6,7 @@
     align-items:center;
     background-size: cover;
     height:500px;
+    margin-top:25px;
 }
 .cleaningcart{
     display:flex;
@@ -291,4 +292,8 @@
     border-right: none;
     margin: 0px;
     padding: 5px;
+  }
+  .Teamslistcontainer{
+    color:#000000;
+    background-color: #57b7f7;
   }

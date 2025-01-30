@@ -1,0 +1,42 @@
+.carouselcontentparagrapgh {
+    font-family: 'roboto';
+    font-size: 15px;
+    color: #fafcfc;
+    text-align: left;
+    font-weight: bolder;
+    margin: 0px;
+    padding:0px;
+    padding-top:10px;
+  }
+  .carouselcontentheading {
+    font-family: 'roboto';
+    font-size: 50px;
+    color: #fafcfc;
+    font-weight: bolder;
+    width: 80%;
+    margin: 0px;
+    padding:0px;
+    padding-top:10px;
+    text-align: left;
+  }
+  .carouselcontentbutton {
+    background-color: transparent;
+    border: 1px solid #fafcfc;
+    border-radius: 5px;
+    font-family: 'roboto';
+    font-size: 18px;
+    color: #fafcfc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-self: flex-start;
+  }
+  .carouselcontent {
+    width:100vw;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left:30px;
+  }

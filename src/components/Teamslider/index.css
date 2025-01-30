@@ -1,0 +1,40 @@
+.teammembers{
+    width:250px;
+    height:250px;
+}
+.teamcart{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teamdetailscontainer{
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 16px 0px #a2a3a3;
+    color:#2a2b2b;
+    padding:5px;
+    background-color: #ffffff;
+    position: relative;
+    bottom:30px;
+    left:20px;
+}
+.name{
+    font-family: "roboto";
+    font-size: 20px;
+    color:#000000;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.position{
+    font-family: "roboto";
+    font-size: 15px;
+    color:#a2a3a3;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    font-weight: normal;
+}

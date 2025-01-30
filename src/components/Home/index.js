@@ -4,6 +4,8 @@ import About from '.././About'
 import Whychooseus from '.././Whychooseus'
 import MeetTeam from '.././MeetTeam'
 import Contact from '.././Contact'
+import Carousel from ".././Carousel"
+import Teamslider from ".././Teamslider"
 
 import {FaPhoneAlt, FaTwitter} from 'react-icons/fa'
 
@@ -12,6 +14,7 @@ import { TiSocialFacebook } from 'react-icons/ti'
 import { FaInstagram } from 'react-icons/fa6'
 import { TiSocialLinkedin } from 'react-icons/ti'
 import { FaCalculator } from 'react-icons/fa'
+import { IoMdMenu } from "react-icons/io"
 
 class Home extends Component {
   render() {
@@ -70,6 +73,7 @@ class Home extends Component {
             </div>
           </div>
           <div className="corouselcontainer">
+            <Carousel />
           </div>
           <div className="aboutcontainer" id="About">
             <About />
@@ -77,6 +81,18 @@ class Home extends Component {
         </div>
         <div className="whychoosuscontainer">
           <Whychooseus />
+          <div className="teamcontainer">
+            <div className="Whychooseuscart">
+              <p className="wcuparagraph">MEET OUR</p>
+              <h1 className="wcuheading">Our Team</h1>
+              <p className="wcuparagraph wcutext">
+                The member of our highly experienced team is dedicated to providing you with only the best service we can possibly provide.
+              </p>
+            </div>
+          </div>
+          <div className="corouselcontainer">
+            <Teamslider />
+          </div>
           <MeetTeam />
           <Contact />
           <hr className="horizantalline" />

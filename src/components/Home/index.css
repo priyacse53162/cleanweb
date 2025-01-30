@@ -68,6 +68,7 @@
     justify-content: space-between;
     width: 40%;
   }
+  
   .quotebutton {
     background-color: #1c8eb8;
     padding: 10px;
@@ -90,7 +91,6 @@
   }
   .corouselcontainer {
     margin-top: 10px;
-    margin-bottom: 10px;
     width: 80%;
   }
   .logonav {
@@ -118,13 +118,13 @@
     font-size: 13px;
     color: #191a19;
     text-decoration: none;
+    font-weight: bolder;
   }
   .aboutcontainer {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
   }
   .whychoosuscontainer {
     width: 100vw;

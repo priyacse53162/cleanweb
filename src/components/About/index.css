@@ -37,8 +37,22 @@
   .abouttopcontainer {
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin-top: 10px;
+  }
+  @media (max-width:768px){
+    .abouttopcontainer{
+      flex-direction: column;
+    }
+    .aboutbottomcontainer{
+      flex-direction: column;
+    }
+    .bottomaboutcart{
+      width:90vw;
+    }
+    .aboutcontentheading{
+      width:100%;
+    }
   }
   .bottomaboutcart {
     display: flex;

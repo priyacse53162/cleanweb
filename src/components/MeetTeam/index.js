@@ -3,19 +3,11 @@ import { PiPlayFill } from "react-icons/pi"
 import { BiHappyBeaming } from "react-icons/bi"
 import { LuHouse } from "react-icons/lu"
 import { TbHexagonNumber1 } from "react-icons/tb"
-import { MdCleaningServices } from "react-icons/md";
+import { MdCleaningServices } from "react-icons/md"
+
 const MeetTeam = () => {
     return (
       <>
-        <div className="teamcontainer">
-          <div className="Whychooseuscart">
-            <p className="wcuparagraph">MEET OUR</p>
-            <h1 className="wcuheading">Our Team</h1>
-            <p className="wcuparagraph wcutext">
-              The member of our highly experienced team is dedicated to providing you with only the best service we can possibly provide.
-            </p>
-          </div>
-        </div>
         <div className="cleaningcontainer">
           <div className="cleaningcart">
             <p className="iconborder2"><p className="iconborder"><button className="playbutton"><PiPlayFill /></button></p></p>
